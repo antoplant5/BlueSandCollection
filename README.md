@@ -1,1 +1,1 @@
-# BlueSandCollection
+# Blue Sand Collection Website
