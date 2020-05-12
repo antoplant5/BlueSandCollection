@@ -353,8 +353,9 @@ label {
 }
 
 .btn:hover {
-    background: #f1b233;
-    color: #fff;
+    background: white;
+    border: 2px solid #1B2C47;
+    color: #1B2C47 !important;
 }
 
 .border-btn {
@@ -389,7 +390,7 @@ label {
 }
 
 .border-btn:hover i {
-    color: #fff !important;
+    color: #1B2C47 !important;
 }
 
 .border-btn:hover {
@@ -512,7 +513,7 @@ label {
     -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
     animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
     -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
-    background: #fff;
+    background: #1B2C47;
     padding-left: 85px;
     padding-right: 85px;
 }
@@ -2352,6 +2353,11 @@ label {
     .header-area {
         padding: 18px 0;
     }
+
+    .header-area .logo a img {
+        width: 250px;
+        float: left;
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -2364,6 +2370,32 @@ label {
     .header-area {
         padding: 18px 0;
     }
+
+    .header-area .logo a img {
+        width: 200px;
+        float: left;
+    }
+}
+
+.info-area {
+    background-color: #1B2C47;
+    padding: 20px 0;
+}
+
+.info-area a, .info-area span {
+    color: white;
+    text-transform: uppercase;
+}
+
+.header-btn {
+    width: fit-content;
+}
+
+.header-btn a {
+    padding: 25px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 16px;
 }
 
 .main-header {
@@ -2372,17 +2404,19 @@ label {
 }
 
 .main-header .main-menu ul li {
+    margin: 0 10px;
     display: inline-block;
     position: relative;
     z-index: 1;
 }
 
 .main-header .main-menu ul li a {
-    color: #262626;
+    color: white;
     font-weight: 400;
     padding: 38px 19px;
     display: block;
     font-size: 16px;
+    text-transform: uppercase;
     position: relative;
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
@@ -2390,6 +2424,23 @@ label {
     -o-transition: all 0.3s ease-out 0s;
     transition: all 0.3s ease-out 0s;
     font-family: 'Poppins', sans-serif;
+}
+
+.main-header .main-menu ul li hr {
+    border: white solid 1px;
+    margin: auto;
+    width: 100px;
+    display: block;
+    font-size: 16px;
+    text-transform: uppercase;
+    position: relative;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    font-family: 'Poppins', sans-serif;
+    pointer-events: none;
 }
 
 .main-header .main-menu ul li:hover > a {
@@ -2434,12 +2485,17 @@ label {
     top: 100%;
 }
 
+.header-sticky {
+    background-color: #0278CA;
+}
+
 .header-sticky ul li a {
     padding: 10px 19px;
 }
 
 .header-sticky.sticky-bar.sticky .main-menu ul > li > a {
     padding: 22px 20px;
+    text-transform: uppercase;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
@@ -2452,6 +2508,10 @@ label {
     .header-sticky.sticky-bar.sticky {
         padding: 5px 0;
     }
+}
+
+.header-sticky.sticky-bar.sticky .logo a img {
+    width: 300px
 }
 
 .slider-height {
@@ -2604,7 +2664,7 @@ label {
     background-image: -moz-linear-gradient(90deg, rgba(38, 47, 90, 0) 0%, rgba(26, 7, 1, 0.99) 56%, #1a0701 57%);
     background-image: -webkit-linear-gradient(90deg, rgba(38, 47, 90, 0) 0%, rgba(26, 7, 1, 0.99) 56%, #1a0701 57%);
     background-image: -ms-linear-gradient(90deg, rgba(38, 47, 90, 0) 0%, rgba(26, 7, 1, 0.99) 56%, #1a0701 57%);
-    opacity: 0.569;
+    opacity: 0;
     width: 100%;
     height: 100%;
     left: 0;
@@ -5071,7 +5131,7 @@ label {
 /* Large Mobile :480px. */
 /* 1. Theme default css */
 body {
-    font-family: "Noto Serif", serif;
+    font-family: "Poppins", serif;
     font-weight: normal;
     font-style: normal;
 }
@@ -6924,4 +6984,8 @@ h6 {
     margin: 30px auto;
     border: #0278CA solid 1px;
     width: 100px;
+}
+
+.center {
+    text-align: center !important;
 }
