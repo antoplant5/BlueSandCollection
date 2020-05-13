@@ -2379,12 +2379,13 @@ label {
 
 .info-area {
     background-color: #1B2C47;
-    padding: 20px 0;
+    padding: 0px 0;
 }
 
 .info-area a, .info-area span {
     color: white;
     text-transform: uppercase;
+    font-size: 12px;
 }
 
 .header-btn {
@@ -2395,7 +2396,9 @@ label {
     padding: 25px;
     border: 1px solid white;
     border-radius: 10px;
-    font-size: 16px;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px
 }
 
 .main-header {
@@ -2511,7 +2514,7 @@ label {
 }
 
 .header-sticky.sticky-bar.sticky .logo a img {
-    width: 300px
+    width: 200px
 }
 
 .slider-height {
@@ -3391,7 +3394,7 @@ label {
 
 .dining-area .single-dining-area {
     position: relative;
-    padding: 100px 0;
+    padding: 10px 0;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -3414,6 +3417,8 @@ label {
 
 .dining-area .single-dining-area.left-img {
     position: relative;
+    margin-top: 20px;
+    margin-bottom:20px;
 }
 
 .dining-area .single-dining-area.left-img::before {
@@ -3444,6 +3449,8 @@ label {
 
 .dining-area .single-dining-area.right-img {
     position: relative;
+    margin-top: 20px;
+    margin-bottom:20px;
 }
 
 .dining-area .single-dining-area.right-img::before {
@@ -3472,11 +3479,13 @@ label {
     }
 }
 
-.dining-area .dining-caption {
-    background: rgba(252, 252, 252, 0.95);
+.dining-area .dining-caption{
+    background:#0178cb;
     padding: 92px 98px 98px 96px;
     border-radius: 5px;
+
 }
+
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .dining-area .dining-caption {
