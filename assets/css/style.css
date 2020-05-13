@@ -3435,10 +3435,12 @@ label {
 
 .img-1::before {
     background-image: url(../img/blue-sand/sea-view.jpg);
+    z-index: 1;
 }
 
 .img-3::before {
     background-image: url(../img/blue-sand/casitas-view.jpg);
+    z-index: 1;
 }
 
 @media (max-width: 767px) {
@@ -3467,10 +3469,12 @@ label {
 
 .img-2::before {
     background-image: url(../img/blue-sand/carambola-view.jpg);
+    z-index: 1;
 }
 
 .img-4::before {
     background-image: url(../img/blue-sand/beach-view.jpg);
+    z-index: 1;
 }
 
 @media (max-width: 767px) {
@@ -6998,4 +7002,16 @@ h6 {
 
 .center {
     text-align: center !important;
+}
+
+.hr-right {
+    margin-left: 80%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.hr-left {
+    margin-right: 80%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
