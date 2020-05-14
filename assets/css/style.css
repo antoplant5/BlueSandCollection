@@ -504,6 +504,24 @@ label {
 .sticky-bar {
     left: 0;
     margin: auto;
+    margin-top: 72px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    -webkit-box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.07);
+    box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.07);
+    z-index: 9999;
+    -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+    animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+    -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+    background: #1B2C47;
+    padding-left: 85px;
+    padding-right: 85px;
+}
+
+.sticky-bar2 {
+    left: 0;
+    margin: auto;
     position: fixed;
     top: 0;
     width: 100%;
@@ -2385,7 +2403,7 @@ label {
 .info-area a, .info-area span {
     color: white;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .header-btn {
@@ -2396,7 +2414,7 @@ label {
     padding: 25px;
     border: 1px solid white;
     border-radius: 10px;
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 10px;
     margin-bottom: 10px
 }
@@ -2416,7 +2434,7 @@ label {
 .main-header .main-menu ul li a {
     color: white;
     font-weight: 400;
-    padding: 38px 19px;
+    padding: 38px 0px;
     display: block;
     font-size: 16px;
     text-transform: uppercase;
@@ -2490,6 +2508,7 @@ label {
 
 .header-sticky {
     background-color: #0278CA;
+    margin-top: 72px;
 }
 
 .header-sticky ul li a {
@@ -2497,7 +2516,7 @@ label {
 }
 
 .header-sticky.sticky-bar.sticky .main-menu ul > li > a {
-    padding: 22px 20px;
+    padding: 22px 0px;
     text-transform: uppercase;
 }
 
@@ -2514,7 +2533,36 @@ label {
 }
 
 .header-sticky.sticky-bar.sticky .logo a img {
-    width: 200px
+    width: 150px
+}
+
+.header-sticky2 {
+    background-color: #1b2c47;
+}
+
+.header-sticky2 ul li a {
+    padding: 10px 19px;
+}
+
+.header-sticky2.sticky-bar.sticky .main-menu ul > li > a {
+    padding: 22px 0px;
+    text-transform: uppercase;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+    .header-sticky2.sticky-bar.sticky {
+        padding: 5px 0;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    .header-sticky2.sticky-bar.sticky {
+        padding: 5px 0;
+    }
+}
+
+.header-sticky2.sticky-bar.sticky .logo a img {
+    width: 150px
 }
 
 .slider-height {
@@ -3484,7 +3532,7 @@ label {
 }
 
 .dining-area .dining-caption{
-    background:#0178cb;
+    background:#1B2C47;
     padding: 92px 98px 98px 96px;
     border-radius: 5px;
 
@@ -7014,6 +7062,10 @@ h6 {
     margin-right: 80%;
     margin-top: 2%;
     margin-bottom: 2%;
+}
+
+.footer-margin {
+    margin-top: 20px;
 }
 
 .caption-text-left {
