@@ -7015,3 +7015,11 @@ h6 {
     margin-top: 2%;
     margin-bottom: 2%;
 }
+
+.caption-text-left {
+    padding-right: 10em;
+}
+
+.caption-text-right {
+    padding-left: 10em;
+}
