@@ -504,6 +504,24 @@ label {
 .sticky-bar {
     left: 0;
     margin: auto;
+    margin-top: 72px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    -webkit-box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.07);
+    box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.07);
+    z-index: 9999;
+    -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+    animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+    -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+    background: #1B2C47;
+    padding-left: 85px;
+    padding-right: 85px;
+}
+
+.sticky-bar2 {
+    left: 0;
+    margin: auto;
     position: fixed;
     top: 0;
     width: 100%;
@@ -2490,6 +2508,7 @@ label {
 
 .header-sticky {
     background-color: #0278CA;
+    margin-top: 72px;
 }
 
 .header-sticky ul li a {
