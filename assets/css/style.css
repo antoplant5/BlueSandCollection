@@ -5260,14 +5260,15 @@ li {
     list-style: none;
 }
 
-p {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 30px;
-    color: #909092;
-    margin-bottom: 13px;
-    font-family: "Noto Serif", serif;
-}
+/*TODO GLA: ver donde comentar esto afecta, pero estaba overwriting el font en los p tags*/
+/*p {*/
+/*    font-size: 16px;*/
+/*    font-weight: 400;*/
+/*    line-height: 30px;*/
+/*    color: #909092;*/
+/*    margin-bottom: 13px;*/
+/*    font-family: "Noto Serif", serif;*/
+/*}*/
 
 label {
     color: #7e7e7e;
@@ -7056,14 +7057,32 @@ h6 {
     margin-left: 80%;
     margin-top: 2%;
     margin-bottom: 2%;
+    border-color: #00C5B1;
 }
 
 .hr-left {
     margin-right: 80%;
     margin-top: 2%;
     margin-bottom: 2%;
+    border-color: #00C5B1;
 }
 
 .footer-margin {
     margin-top: 20px;
+}
+
+.caption-text-left {
+    padding-right: 10em;
+}
+
+.caption-text-right {
+    padding-left: 10em;
+}
+
+.caption-text-right h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+.caption-text-left h2 {
+    font-family: 'Playfair Display', serif;
 }
