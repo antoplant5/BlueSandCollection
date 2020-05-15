@@ -7081,8 +7081,10 @@ h6 {
 
 .caption-text-right h2 {
     font-family: 'Playfair Display', serif;
+    font-weight: bold;
 }
 
 .caption-text-left h2 {
     font-family: 'Playfair Display', serif;
+    font-weight: bold;
 }
