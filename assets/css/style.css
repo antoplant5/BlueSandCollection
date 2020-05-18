@@ -3486,6 +3486,17 @@ label {
     z-index: 1;
 }
 
+.img-carambola::before {
+    background-image: url(../img/blue-sand/Carambola_CR-18.jpg);
+    z-index: 1;
+}
+
+.img-flamboyan::before {
+    background-image: url(../img/blue-sand/Flamboyan_CR-16.jpg);
+    z-index: 1;
+}
+
+
 .img-3::before {
     background-image: url(../img/blue-sand/casitas-view.jpg);
     z-index: 1;
