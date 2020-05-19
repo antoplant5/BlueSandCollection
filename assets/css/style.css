@@ -7056,7 +7056,7 @@ h6 {
 
 .custom-hr {
     margin: 30px auto;
-    border: #00C5B1 solid 2px;  
+    border: #00C5B1 solid 2px;
     width: 100px;
 }
 
@@ -7078,6 +7078,13 @@ h6 {
     border-color: #00C5B1;
 }
 
+.hr-center {
+    margin: 30px auto;
+    margin-top: 10px;
+    border: #00C5B1 solid;
+    width: 50px;
+}
+
 .footer-margin {
     margin-top: 20px;
 }
@@ -7090,12 +7097,144 @@ h6 {
     padding-left: 10em;
 }
 
-.caption-text-right h2 {
+.playfair {
     font-family: 'Playfair Display', serif;
     font-weight: bold;
 }
 
-.caption-text-left h2 {
-    font-family: 'Playfair Display', serif;
+.image-caption h1{
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 100em;
     font-weight: bold;
+    font-size: 100%;
+    padding-top: 100%;
 }
+
+.container.icons {
+    padding: 2em 5% 2em;
+    font-size: 14px;
+}
+
+.description p{
+    text-align: justify;
+    /*padding: 7% 3% 7%;*/
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.amenities {
+    padding-bottom: 20px;
+}
+
+/*TODO GLA: find a way to put together common attributes and only change image path
+   -check for innecesary attributes
+   -make all icons same size*/
+.icons-guests:before {
+    display: inline-block;
+    width: 4em;
+    height: 4em;
+    /*margin-right: 5px;*/
+    vertical-align: middle;
+    content: '';
+    background: url(../img/blue-sand/icons/BlueSand_Guests.png) no-repeat 0 0;
+    background-size: 100%;
+}
+
+.icons-beds:before {
+    display: inline-block;
+    width: 7em;
+    height: 7em;
+    /*margin-right: 5px;*/
+    vertical-align: middle;
+    content: '';
+    background: url(../img/blue-sand/icons/Sleeps_icon.png) no-repeat 0 0;
+    background-size: 100%;
+}
+
+.icons-baths:before {
+    display: inline-block;
+    width: 7em;
+    height: 7em;
+    /*margin-right: 5px;*/
+    vertical-align: middle;
+    content: '';
+    background: url(../img/blue-sand/icons/Bathrooms_icon.png) no-repeat 0 0;
+    background-size: 100%;
+}
+
+.icons-pool:before {
+    display: inline-block;
+    width: 7em;
+    height: 7em;
+    /*margin-right: 5px;*/
+    vertical-align: middle;
+    content: '';
+    background: url(../img/blue-sand/icons/PrivatePool_icon.png) no-repeat 0 0;
+    background-size: 100%;
+}
+
+.icons-beach:before {
+    display: inline-block;
+    width: 7em;
+    height: 7em;
+    /*margin-right: 5px;*/
+    vertical-align: middle;
+    content: '';
+    background: url(../img/blue-sand/icons/BeachFront_icon.png) no-repeat 0 0;
+    background-size: 100%;
+}
+
+.icons-yoga:before {
+    display: inline-block;
+    width: 9em;
+    height: 9em;
+    margin-right: 5px;
+    vertical-align: -60%;
+    content: '';
+    background: url(../img/blue-sand/icons/BlueSand_Icon-Yoga.png) no-repeat 0 0;
+    background-size: 100%;
+}
+
+.icons-chef:before {
+    display: inline-block;
+    width: 9em;
+    height: 9em;
+    margin-right: 5px;
+    vertical-align: -60%;
+    horiz-align: center;
+    content: '';
+    background: url(../img/blue-sand/icons/BlueSand_Icon-ChefServices.png) no-repeat 0 0;
+    background-size: 100%;
+}
+
+.icons-massage:before {
+    display: inline-block;
+    width: 9em;
+    height: 9em;
+    margin-right: 5px;
+    vertical-align: -60%;
+    content: '';
+    background: url(../img/blue-sand/icons/BlueSand_Icon-Massage.png) no-repeat 0 0;
+    background-size: 100%;
+}
+
+.extra {
+    font-weight: bold;
+    color: #1b2c47;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.amenities ul{
+    list-style-type: circle;
+    font-size: 16px;
+    font-weight: bold;
+    color: #1b2c47;
+}
+
+
