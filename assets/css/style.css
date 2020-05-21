@@ -6308,12 +6308,15 @@ h6 {
 }
 
 .single-gallery-image {
-    margin-top: 30px;
+    /*margin-top: 30px;*/
+    margin-bottom: 10px;
     background-repeat: no-repeat !important;
     background-position: center center !important;
     background-size: cover !important;
     height: 200px;
+    /*width: 100%;*/
 }
+
 
 .list-style {
     width: 14px;
@@ -7102,15 +7105,14 @@ h6 {
     font-weight: bold;
 }
 
-.image-caption h1{
-    position: absolute;
-    font-family: 'Poppins', sans-serif;
-    text-transform: uppercase;
+.image-caption p{
+    padding-top: 85%;
     color: white;
-    letter-spacing: 100em;
-    font-weight: bold;
-    font-size: 100%;
-    padding-top: 100%;
+    font-weight: bolder;
+    font-size: 80px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
 }
 
 .container.icons {
@@ -7120,105 +7122,7 @@ h6 {
 
 .description p{
     text-align: justify;
-    /*padding: 7% 3% 7%;*/
-    font-size: 15px;
-    padding-bottom: 20px;
-}
-
-.amenities {
-    padding-bottom: 20px;
-}
-
-/*TODO GLA: find a way to put together common attributes and only change image path
-   -check for innecesary attributes
-   -make all icons same size*/
-.icons-guests:before {
-    display: inline-block;
-    width: 4em;
-    height: 4em;
-    /*margin-right: 5px;*/
-    vertical-align: middle;
-    content: '';
-    background: url(../img/blue-sand/icons/BlueSand_Guests.png) no-repeat 0 0;
-    background-size: 100%;
-}
-
-.icons-beds:before {
-    display: inline-block;
-    width: 7em;
-    height: 7em;
-    /*margin-right: 5px;*/
-    vertical-align: middle;
-    content: '';
-    background: url(../img/blue-sand/icons/Sleeps_icon.png) no-repeat 0 0;
-    background-size: 100%;
-}
-
-.icons-baths:before {
-    display: inline-block;
-    width: 7em;
-    height: 7em;
-    /*margin-right: 5px;*/
-    vertical-align: middle;
-    content: '';
-    background: url(../img/blue-sand/icons/Bathrooms_icon.png) no-repeat 0 0;
-    background-size: 100%;
-}
-
-.icons-pool:before {
-    display: inline-block;
-    width: 7em;
-    height: 7em;
-    /*margin-right: 5px;*/
-    vertical-align: middle;
-    content: '';
-    background: url(../img/blue-sand/icons/PrivatePool_icon.png) no-repeat 0 0;
-    background-size: 100%;
-}
-
-.icons-beach:before {
-    display: inline-block;
-    width: 7em;
-    height: 7em;
-    /*margin-right: 5px;*/
-    vertical-align: middle;
-    content: '';
-    background: url(../img/blue-sand/icons/BeachFront_icon.png) no-repeat 0 0;
-    background-size: 100%;
-}
-
-.icons-yoga:before {
-    display: inline-block;
-    width: 9em;
-    height: 9em;
-    margin-right: 5px;
-    vertical-align: -60%;
-    content: '';
-    background: url(../img/blue-sand/icons/BlueSand_Icon-Yoga.png) no-repeat 0 0;
-    background-size: 100%;
-}
-
-.icons-chef:before {
-    display: inline-block;
-    width: 9em;
-    height: 9em;
-    margin-right: 5px;
-    vertical-align: -60%;
-    horiz-align: center;
-    content: '';
-    background: url(../img/blue-sand/icons/BlueSand_Icon-ChefServices.png) no-repeat 0 0;
-    background-size: 100%;
-}
-
-.icons-massage:before {
-    display: inline-block;
-    width: 9em;
-    height: 9em;
-    margin-right: 5px;
-    vertical-align: -60%;
-    content: '';
-    background: url(../img/blue-sand/icons/BlueSand_Icon-Massage.png) no-repeat 0 0;
-    background-size: 100%;
+    font-size: 16px;
 }
 
 .extra {
@@ -7230,11 +7134,132 @@ h6 {
     padding-bottom: 30px;
 }
 
-.amenities ul{
+.amenities p{
     list-style-type: circle;
     font-size: 16px;
     font-weight: bold;
     color: #1b2c47;
 }
+
+.icons-row {
+    display: flex;
+}
+
+.icons-row img{
+    /*display:inline-block;*/
+    /*margin-right: 20px;*/
+    /*margin-left: 20px;*/
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icons-yoga:before {
+    display: inline-block;
+    width: 7em;
+    height: 7em;
+    margin-right: 5px;
+    vertical-align: -60%;
+    content: '';
+    background: url(../img/blue-sand/icons/BlueSand_Icon-Yoga.png) no-repeat 0 0;
+    background-size: 100%;
+}
+
+.icons-chef:before {
+    display: inline-block;
+    width: 7em;
+    height: 7em;
+    margin-right: 5px;
+    vertical-align: -60%;
+    horiz-align: center;
+    content: '';
+    background: url(../img/blue-sand/icons/BlueSand_Icon-ChefServices.png) no-repeat 0 0;
+    background-size: 100%;
+}
+
+.icons-massage:before {
+    display: inline-block;
+    width: 7em;
+    height: 7em;
+    margin-right: 5px;
+    vertical-align: -60%;
+    content: '';
+    background: url(../img/blue-sand/icons/BlueSand_Icon-Massage.png) no-repeat 0 0;
+    background-size: 100%;
+}
+
+.to-left {
+    margin-left: 4.16667%;
+}
+
+
+.gallery-item img {
+    width: 100%;
+    margin: 4% auto 4%;
+
+}
+
+.gallery-item.col-5{
+    height: 80%;
+    width: auto;
+}
+
+/*.gallery-grid {*/
+/*    display: grid;*/
+/*    grid-template-columns: [c1] 20% [c2] 8% [c3] 20% [c4] 8% [c5] 8% [c6] 8% [c7] 28% [c-end];*/
+/*    grid-template-rows: [r1] 21% [r2] 8% [r3] 21%  [r4] 8% [r5] 42% [r-end];*/
+/*}*/
+
+/*.gallery-img1{*/
+/*    grid-column-start: c1;*/
+/*    grid-column-end: c6;*/
+/*    grid-row-start: r1;*/
+/*    grid-row-end: r4;*/
+/*    background: url("/assets/img/blue-sand/carambola/Carambola_CR-6.jpg");*/
+/*}*/
+
+/*.gallery-img2{*/
+/*    grid-column-start: c7;*/
+/*    grid-column-end: c-end;*/
+/*    grid-row-start: r1;*/
+/*    grid-row-end: r2;*/
+/*    background-color: blue;*/
+
+/*}*/
+
+/*.gallery-img3{*/
+/*    grid-column-start: c7;*/
+/*    grid-column-end: c-end;*/
+/*    grid-row-start: r3;*/
+/*    grid-row-end: r4;*/
+/*    background-color: yellow;*/
+
+/*}*/
+
+/*.gallery-img4{*/
+/*    grid-column-start: c1;*/
+/*    grid-column-end: c2;*/
+/*    grid-row-start: r5;*/
+/*    grid-row-end: r-end;*/
+/*    background-color: orange;*/
+
+/*}*/
+
+/*.gallery-img5{*/
+/*    grid-column-start: c3;*/
+/*    grid-column-end: c4;*/
+/*    grid-row-start: r5;*/
+/*    grid-row-end:r-end;*/
+/*    background-color: green;*/
+
+/*}*/
+
+/*.gallery-img6{*/
+/*    grid-column-start: c5;*/
+/*    grid-column-end: c-end;*/
+/*    grid-row-start: r5;*/
+/*    grid-row-end: r-end;*/
+/*    background-color: pink;*/
+/*}*/
 
 
