@@ -7082,10 +7082,13 @@ h6 {
 }
 
 .hr-center {
-    margin: 30px auto;
-    margin-top: 10px;
-    border: #00C5B1 solid;
-    width: 50px;
+    /*margin: 30px auto;*/
+    /*margin-top: 10px;*/
+    /*border: #00C5B1 solid;*/
+    /*width: 50px;*/
+    margin: 10px auto;
+    border: #00C5B1 solid 2px;
+    width: 70px;
 }
 
 .footer-margin {
