@@ -7207,6 +7207,11 @@ h6 {
     width: auto;
 }
 
+.reviews img{
+    width: 70%;
+    align-self: center;
+}
+
 /*.gallery-grid {*/
 /*    display: grid;*/
 /*    grid-template-columns: [c1] 20% [c2] 8% [c3] 20% [c4] 8% [c5] 8% [c6] 8% [c7] 28% [c-end];*/
