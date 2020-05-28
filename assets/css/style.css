@@ -7191,6 +7191,28 @@ h6 {
     background-size: 100%;
 }
 
+.icons-concierge:before {
+    display: inline-block;
+    width: 7em;
+    height: 7em;
+    margin-right: 5px;
+    vertical-align: -60%;
+    content: '';
+    background: url(../img/blue-sand/icons/BlueSand_Icon-Concierge.png) no-repeat 0 0;
+    background-size: 100%;
+}
+
+.icons-maid:before {
+    display: inline-block;
+    width: 7em;
+    height: 7em;
+    margin-right: 5px;
+    vertical-align: -60%;
+    content: '';
+    background: url(../img/blue-sand/icons/BlueSand_Icon-DailyMaid.png) no-repeat 0 0;
+    background-size: 100%;
+}
+
 .to-left {
     margin-left: 4.16667%;
 }
@@ -7208,8 +7230,9 @@ h6 {
 }
 
 .reviews img{
-    width: 70%;
-    align-self: center;
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 /*.gallery-grid {*/
