@@ -7235,64 +7235,6 @@ h6 {
     padding-bottom: 3%;
 }
 
-/*.gallery-grid {*/
-/*    display: grid;*/
-/*    grid-template-columns: [c1] 20% [c2] 8% [c3] 20% [c4] 8% [c5] 8% [c6] 8% [c7] 28% [c-end];*/
-/*    grid-template-rows: [r1] 21% [r2] 8% [r3] 21%  [r4] 8% [r5] 42% [r-end];*/
-/*}*/
-
-/*.gallery-img1{*/
-/*    grid-column-start: c1;*/
-/*    grid-column-end: c6;*/
-/*    grid-row-start: r1;*/
-/*    grid-row-end: r4;*/
-/*    background: url("/assets/img/blue-sand/carambola/Carambola_CR-6.jpg");*/
-/*}*/
-
-/*.gallery-img2{*/
-/*    grid-column-start: c7;*/
-/*    grid-column-end: c-end;*/
-/*    grid-row-start: r1;*/
-/*    grid-row-end: r2;*/
-/*    background-color: blue;*/
-
-/*}*/
-
-/*.gallery-img3{*/
-/*    grid-column-start: c7;*/
-/*    grid-column-end: c-end;*/
-/*    grid-row-start: r3;*/
-/*    grid-row-end: r4;*/
-/*    background-color: yellow;*/
-
-/*}*/
-
-/*.gallery-img4{*/
-/*    grid-column-start: c1;*/
-/*    grid-column-end: c2;*/
-/*    grid-row-start: r5;*/
-/*    grid-row-end: r-end;*/
-/*    background-color: orange;*/
-
-/*}*/
-
-/*.gallery-img5{*/
-/*    grid-column-start: c3;*/
-/*    grid-column-end: c4;*/
-/*    grid-row-start: r5;*/
-/*    grid-row-end:r-end;*/
-/*    background-color: green;*/
-
-/*}*/
-
-/*.gallery-img6{*/
-/*    grid-column-start: c5;*/
-/*    grid-column-end: c-end;*/
-/*    grid-row-start: r5;*/
-/*    grid-row-end: r-end;*/
-/*    background-color: pink;*/
-/*}*/
-
 
 .image-width
 {
