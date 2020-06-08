@@ -7238,6 +7238,7 @@ h6 {
     transition: .5s ease;
     color: #1b2c47;
 }
+/*efecto descartado para experiences
 .activity-img {
     height: 500px;
     width: auto;
@@ -7259,7 +7260,7 @@ h6 {
 
 .activity-img:hover .activity-desc {
     display: block;
-    /*opacity: 1;*/
+    opacity: 1;
     transition: .5s line;
 }
 
@@ -7273,7 +7274,11 @@ h6 {
     text-align: center;
     line-height: normal;
     display: none;
+}
+*/
 
+.activity{
+    cursor: pointer;
 }
 
 .activity p {
@@ -7369,6 +7374,7 @@ h6 {
 }
 
 .description-dialog p {
+    font-size: 14px;
     text-align: center;
     justify-content: center;
     align-items: center;
