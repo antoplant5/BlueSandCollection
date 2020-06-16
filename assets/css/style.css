@@ -3496,6 +3496,29 @@ label {
     z-index: 1;
 }
 
+.img-cocoloba-deluxe::before {
+    background-image: url(../img/blue-sand/casitas/Cocoloba_Deluxe.png);
+    z-index: 1;
+    width: 80%;
+}
+
+.img-coming-soon::before {
+    background-image: url(../img/blue-sand/casitas/ComingSoon_Logo.png);
+    z-index: 2;
+    /*position: absolute;*/
+    width: 20%;
+}
+
+.img-cocoloba1::before {
+    background-image: url(../img/blue-sand/casitas/Cocoloba_Classic-1.jpg);
+    z-index: 1;
+}
+
+.img-cocoloba2::before {
+    background-image: url(../img/blue-sand/casitas/Cocoloba_Classic-2.jpg);
+    z-index: 1;
+}
+
 
 .img-3::before {
     background-image: url(../img/blue-sand/casitas-view.jpg);
@@ -7286,6 +7309,7 @@ h6 {
     font-weight: bolder;
     color: white;
     text-align: center;
+    line-height: 1em;
 }
 
 .experiences-cap p{
@@ -7294,7 +7318,7 @@ h6 {
     font-size: 80px;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    text-shadow: 2px 2px 8px gray;
+    text-shadow: 2px 2px 8px #484A55;
 
 }
 
@@ -7335,6 +7359,7 @@ h6 {
     position: fixed;
     border: 1px solid;
     right: 3%;
+    top: 2%;
 }
 
 .more-btn.blue{
@@ -7495,4 +7520,8 @@ h6 {
 /* animate out */
 .my-mfp-slide-bottom.mfp-removing.mfp-bg {
     opacity: 0;
+}
+
+.villa-logo {
+    text-align: center;
 }
