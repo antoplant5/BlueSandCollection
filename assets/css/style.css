@@ -7525,3 +7525,43 @@ h6 {
 .villa-logo {
     text-align: center;
 }
+
+.bar-background{
+    background: url(../img/blue-sand/cocoloba/CocolobaBeachBar_background.png) center repeat;
+    background-size: cover;
+}
+
+
+.bar-text h1 {
+    text-transform: uppercase;
+    color: #fd4976;
+    font-weight: bolder;
+    font-family: "Poppins Bold";
+    /*text-shadow: 1px 1px #fd4976;*/
+}
+
+.bar-text h2 {
+    text-transform: uppercase;
+    color: #1b2c47;
+    font-weight: bold;
+    font-family: "Poppins Bold";
+}
+
+.bar-text-block {
+    padding-bottom: 5%;
+}
+
+.bar-image {
+    border: 6px solid #fd4976;
+    margin-bottom: 6px;
+
+}
+
+.bar-image.small {
+    height: 250px;
+}
+
+.bar-image.large {
+    height: 500px;
+}
+
