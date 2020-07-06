@@ -7536,7 +7536,7 @@ h6 {
     text-transform: uppercase;
     color: #fd4976;
     font-weight: bolder;
-    font-family: "Poppins Bold";
+    font-family: Poppins Bold";
     /*text-shadow: 1px 1px #fd4976;*/
 }
 
@@ -7566,5 +7566,9 @@ h6 {
 }
 
 .menu {
-    width: 400px;
+    width: 100%;
+}
+
+.img-pop-up{
+    z-index:999;
 }
