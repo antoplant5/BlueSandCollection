@@ -3519,6 +3519,11 @@ label {
     z-index: 1;
 }
 
+.img-cocoloba-del::before {
+    background-image: url(../img/blue-sand/casitas/Casitas_CR-COVER.jpg);
+    z-index: 1;
+}
+
 
 .img-3::before {
     background-image: url(../img/blue-sand/casitas-view.jpg);
@@ -7214,6 +7219,17 @@ h6 {
     background-size: 100%;
 }
 
+.icons-bike:before {
+    display: inline-block;
+    width: 7em;
+    height: 7em;
+    margin-right: 5px;
+    vertical-align: -60%;
+    content: '';
+    background: url(../img/blue-sand/icons/BlueSand_Icon-BikeRental.png) no-repeat 0 0;
+    background-size: 100%;
+}
+
 .icons-concierge:before {
     display: inline-block;
     width: 7em;
@@ -7341,6 +7357,7 @@ h6 {
     padding-bottom: 3%;
 }
 
+
 .more-btn {
     display: inline-block;
     outline: none;
@@ -7403,6 +7420,16 @@ h6 {
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+
+.description-dialog ol{
+    font-size: 14px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.description-dialog li {
+    padding-bottom: 1em;
 }
 
 /**
@@ -7531,24 +7558,15 @@ h6 {
     background-size: cover;
 }
 
-
-.bar-text h1 {
-    text-transform: uppercase;
+.bar-text {
+    font-size: 45px;
+    letter-spacing: 1px;
+    font-weight: 800;
     color: #fd4976;
-    font-weight: bolder;
-    font-family: Poppins Bold";
-    /*text-shadow: 1px 1px #fd4976;*/
-}
-
-.bar-text h2 {
+    font-family: brandon-grotesque, sans-serif;
+    font-style: normal;
     text-transform: uppercase;
-    color: #1b2c47;
-    font-weight: bold;
-    font-family: "Poppins Bold";
-}
-
-.bar-text-block {
-    padding-bottom: 5%;
+    /*font-weight: 900;*/
 }
 
 .bar-image {
@@ -7571,4 +7589,8 @@ h6 {
 
 .img-pop-up{
     z-index:999;
+}
+
+.galley-img{
+    width: 200px;
 }

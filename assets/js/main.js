@@ -254,5 +254,32 @@
         })
     }
 
+    var story_gal = $('.story-gallery-active');
+    if (story_gal.length) {
+        story_gal.owlCarousel({
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            loop: true,
+            autoplay: true,
+            speed: 3000,
+            smartSpeed: 2000,
+            nav: false,
+            dots: false,
+            margin: 0,
+
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    nav: false,
+                    items: 2,
+                },
+                768: {
+                    nav: false,
+                    items: 5,
+                }
+            }
+        });
+    }
+
 
 })(jQuery);
