@@ -7554,14 +7554,14 @@ h6 {
 }
 
 .bar-background{
-    background: url(../img/blue-sand/cocoloba/CocolobaBeachBar_background.png) center repeat;
+    background: url(../img/blue-sand/logos/CocolobaBeachBar_background.png) center repeat;
     background-size: cover;
 }
 
 .bar-text {
     font-size: 45px;
     letter-spacing: 1px;
-    font-weight: 800;
+    font-weight: 700;
     color: #fd4976;
     font-family: brandon-grotesque, sans-serif;
     font-style: normal;
