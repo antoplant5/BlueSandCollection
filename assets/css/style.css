@@ -3496,17 +3496,19 @@ label {
     z-index: 1;
 }
 
-.img-cocoloba-deluxe::before {
-    background-image: url(../img/blue-sand/casitas/Cocoloba_Deluxe.png);
+.img-cocoloba-coming-soon::before {
+    background-image: url(../img/blue-sand/casitas/IMG-3454.JPG);
+    background-position: right bottom;
     z-index: 1;
-    width: 80%;
+    /*width: 100%;*/
 }
 
 .img-coming-soon::before {
     background-image: url(../img/blue-sand/casitas/ComingSoon_Logo.png);
+    background-size: contain;
     z-index: 2;
     /*position: absolute;*/
-    width: 20%;
+    width: 10%;
 }
 
 .img-cocoloba1::before {
