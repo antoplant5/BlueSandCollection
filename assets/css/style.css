@@ -2532,6 +2532,49 @@ label {
     }
 }
 
+@media screen and (max-width: 991px) {
+    .header-area.header-sticky {
+        margin-top: 27px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .social-handles img{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .book-now {
+        height: 75px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .book-now {
+        display: none;
+        height: 0px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .main-img {
+        height: 800px;
+    }
+}
+
+@media screen and (min-width: 776px) and (max-width: 992px){
+    .main-img {
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 776px){
+    .main-img {
+        height: 450px;
+    }
+}
+
 .header-sticky.sticky-bar.sticky .logo a img {
     width: 150px
 }
@@ -3831,8 +3874,59 @@ label {
     padding-bottom: 168px;
 }
 
-.gallery-area img {
-    width: 100%;
+.social-handles {
+    padding-top: 100px;
+    text-align: center;
+}
+
+@media screen and (min-width: 776px) {
+    .social-handles img{
+        width: 250px;
+    }
+}
+
+
+@media screen and (max-width: 776px){
+    .social-handles img{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 776px){
+    .see-more {
+        display:none;
+    }
+}
+
+
+@media screen and (max-width: 991px){
+    .bar-info img{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 991px){
+    .bar-info img {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .bar-image {
+        border: 3px solid #fd4976;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .bar-image {
+        border: 6px solid #fd4976;
+    }
+}
+
+.social-handles-exp {
+    background-color: white;
+    border: 15px solid #1b2c47;
+    border-radius: 50px;
 }
 
 .footer-area .footer-logo img {
@@ -7126,12 +7220,40 @@ h6 {
 }
 
 .caption-text-left {
-    padding-right: 10em;
+    padding-right: 160px;
 }
 
 .caption-text-right {
-    padding-left: 10em;
+    padding-left: 160px;
 }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .caption-text-right {
+        padding-left: 100px;
+    }
+    .caption-text-left {
+        padding-right: 100px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .caption-text-right {
+        padding-left: 90px;
+    }
+    .caption-text-left {
+        padding-right: 90px;
+    }
+}
+
+@media (max-width: 767px) {
+    .caption-text-right {
+        padding-left: 0px;
+    }
+    .caption-text-left {
+        padding-right: 0px;
+    }
+}
+
 
 .playfair {
     font-family: 'Playfair Display', serif;
@@ -7159,6 +7281,7 @@ h6 {
 }
 
 .extra {
+    display: flex;
     font-weight: bold;
     color: #1b2c47;
     font-size: 16px;
@@ -7175,23 +7298,126 @@ h6 {
 }
 
 .icons-row {
-    display: flex;
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+}
+
+@media only screen and (max-width: 576px) {
+    .icons-row img{
+        width: 70%;
+        padding: 2% 0 2% 125px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    .icons-row img{
+        width: 70%;
+        padding: 2% 0 2% 85px;
+
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .icons-row img{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .to-left {
+        margin-left: 12%;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .to-left {
+        margin-left: 4.16667%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .reviews img {
+        width: 80%;
+    }
+    .reviews.reviews-casitas img{
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .reviews img {
+        width: 100%;
+    }
+    .reviews.reviews-casitas img{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .reviews img {
+        width: 100%;
+    }
+    .reviews.reviews-casitas img{
+        width: 80%;
+    }
 }
 
 .icons-row img{
     /*display:inline-block;*/
     /*margin-right: 20px;*/
     /*margin-left: 20px;*/
-    width: 100%;
+    /*width: 100%;*/
     margin-left: auto;
     margin-right: auto;
 }
 
+@media screen and (max-width: 768px) {
+    .icons-yoga:before {
+        width: 85px; height: 85px;
+    }
+    .icons-chef:before {
+        width: 85px; height: 85px;
+    }
+    .icons-massage:before {
+        width: 85px; height: 85px;
+    }
+    .icons-bike:before {
+        width: 85px; height: 85px;
+    }
+    .icons-concierge:before {
+        width: 85px; height: 85px;
+    }
+    .icons-maid:before {
+        width: 85px; height: 85px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .icons-yoga:before {
+        width: 112px; height: 112px;
+    }
+    .icons-chef:before {
+        width: 112px; height: 112px;
+    }
+    .icons-massage:before {
+        width: 112px; height: 112px;
+    }
+    .icons-bike:before {
+        width: 112px; height: 112px;
+    }
+    .icons-concierge:before {
+        width: 112px; height: 112px;
+    }
+    .icons-maid:before {
+        width: 112px; height: 112px;
+    }
+}
+
 .icons-yoga:before {
     display: inline-block;
-    width: 7em;
-    height: 7em;
-    margin-right: 5px;
+    /*width: 7em;*/
+    /*height: 7em;*/
+    /*margin-right: 5px;*/
     vertical-align: -60%;
     content: '';
     background: url(../img/blue-sand/icons/BlueSand_Icon-Yoga.png) no-repeat 0 0;
@@ -7200,9 +7426,9 @@ h6 {
 
 .icons-chef:before {
     display: inline-block;
-    width: 7em;
-    height: 7em;
-    margin-right: 5px;
+    /*width: 7em;*/
+    /*height: 7em;*/
+    /*margin-right: 5px;*/
     vertical-align: -60%;
     horiz-align: center;
     content: '';
@@ -7212,9 +7438,9 @@ h6 {
 
 .icons-massage:before {
     display: inline-block;
-    width: 7em;
-    height: 7em;
-    margin-right: 5px;
+    /*width: 7em;*/
+    /*height: 7em;*/
+    /*margin-right: 5px;*/
     vertical-align: -60%;
     content: '';
     background: url(../img/blue-sand/icons/BlueSand_Icon-Massage.png) no-repeat 0 0;
@@ -7223,8 +7449,8 @@ h6 {
 
 .icons-bike:before {
     display: inline-block;
-    width: 7em;
-    height: 7em;
+    /*width: 7em;*/
+    /*height: 7em;*/
     margin-right: 5px;
     vertical-align: -60%;
     content: '';
@@ -7234,8 +7460,8 @@ h6 {
 
 .icons-concierge:before {
     display: inline-block;
-    width: 7em;
-    height: 7em;
+    /*width: 7em;*/
+    /*height: 7em;*/
     margin-right: 5px;
     vertical-align: -60%;
     content: '';
@@ -7245,8 +7471,8 @@ h6 {
 
 .icons-maid:before {
     display: inline-block;
-    width: 7em;
-    height: 7em;
+    /*width: 7em;*/
+    /*height: 7em;*/
     margin-right: 5px;
     vertical-align: -60%;
     content: '';
@@ -7254,9 +7480,9 @@ h6 {
     background-size: 100%;
 }
 
-.to-left {
-    margin-left: 4.16667%;
-}
+/*.to-left {*/
+/*    margin-left: 4.16667%;*/
+/*}*/
 
 
 .gallery-item img {
@@ -7272,6 +7498,12 @@ h6 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width: 776px){
+    .activity-img2 {
+        height: 300px;
+    }
 }
 
 .activity-img2:hover .activity p{
@@ -7340,6 +7572,12 @@ h6 {
 
 }
 
+@media screen and (max-width: 776px){
+    .experiences-cap p {
+        font-size: 60px;
+    }
+}
+
 .experiences-cover {
     min-height: 500px;
     display: flex;
@@ -7348,16 +7586,28 @@ h6 {
 }
 
 
+@media screen and (max-width: 776px) {
+    .story {
+        margin-right: 40px;
+    }
+}
+
 .gallery-item.col-5{
     height: 80%;
     width: auto;
 }
 
 .reviews img{
-    width: 100%;
+    /*width: 100%;*/
     padding-top: 3%;
     padding-bottom: 3%;
 }
+
+/*.reviews.reviews-casitas img{*/
+/*    padding-top: 1%;*/
+/*    padding-bottom: 1%;*/
+/*    padding-right:*/
+/*}*/
 
 
 .more-btn {
@@ -7555,6 +7805,24 @@ h6 {
     text-align: center;
 }
 
+@media only screen and (min-width: 991px) {
+    .villa-logo img {
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .villa-logo img {
+        width: 700px;
+    }
+}
+
+@media only screen and  (max-width: 767px) {
+    .villa-logo img{
+        width: 450px;
+    }
+}
+
 .bar-background{
     background: url(../img/blue-sand/logos/CocolobaBeachBar_background.png) center repeat;
     background-size: cover;
@@ -7571,8 +7839,43 @@ h6 {
     /*font-weight: 900;*/
 }
 
+@media screen and (max-width: 776px){
+    .bar-text {
+        font-size: 35px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .bar-social {
+        width: 500px;
+    }
+    .social-logo {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 776px) and (max-width: 991px) {
+    .bar-social {
+        width: 400px;
+    }
+    .social-logo {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 776px) {
+    .bar-social {
+        width: 300px;
+        margin-left: 23%;
+    }
+    .social-logo {
+        width: 30%;
+        margin-left: 25%;
+    }
+}
+
+
 .bar-image {
-    border: 6px solid #fd4976;
     margin-bottom: 6px;
 
 }
