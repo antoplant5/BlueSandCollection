@@ -7611,7 +7611,7 @@ h6 {
 
 
 .more-btn {
-    display: inline-block;
+    /*display: inline-block;*/
     outline: none;
     line-height: 40px;
     padding: 0 30px;
@@ -7625,11 +7625,24 @@ h6 {
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     border-radius: 20px;
-    position: fixed;
+    position: relative;
     border: 1px solid;
-    right: 3%;
-    top: 2%;
+    margin-left: 83%;
+    margin-bottom: 60%;
 }
+
+@media screen and (min-width: 991px) {
+    .more-btn {
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .more-btn {
+        display: none;
+    }
+}
+
 
 .more-btn.blue{
     background: #0278CA;
