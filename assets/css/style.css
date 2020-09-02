@@ -3525,12 +3525,12 @@ label {
 }
 
 .img-1::before {
-    background-image: url(../img/blue-sand/sea-view.jpg);
+    background-image: url(../img/blue-sand/sea-view-compressed.jpg);
     z-index: 1;
 }
 
 .img-carambola::before {
-    background-image: url(../img/blue-sand/Carambola_CR-18.jpg);
+    background-image: url(../img/blue-sand/Carambola_CR-18-compressed.jpg);
     z-index: 1;
 }
 
@@ -3571,7 +3571,7 @@ label {
 
 
 .img-3::before {
-    background-image: url(../img/blue-sand/casitas-view.jpg);
+    background-image: url(../img/blue-sand/casitas-view-compressed.jpg);
     z-index: 1;
 }
 
@@ -3600,7 +3600,7 @@ label {
 }
 
 .img-2::before {
-    background-image: url(../img/blue-sand/carambola-view.jpg);
+    background-image: url(../img/blue-sand/carambola-view-compressed.jpg);
     z-index: 1;
 }
 
