@@ -3540,7 +3540,7 @@ label {
 }
 
 .img-cocoloba-coming-soon::before {
-    background-image: url(../img/blue-sand/casitas/IMG-3454.JPG);
+    background-image: url(../img/blue-sand/casitas/IMG-3454-compressed.jpg);
     background-position: right bottom;
     z-index: 1;
     /*width: 100%;*/
@@ -3555,17 +3555,17 @@ label {
 }
 
 .img-cocoloba1::before {
-    background-image: url(../img/blue-sand/casitas/Cocoloba_Classic-1.jpg);
+    background-image: url(../img/blue-sand/casitas/Cocoloba_Classic-1-compressed.jpg);
     z-index: 1;
 }
 
 .img-cocoloba2::before {
-    background-image: url(../img/blue-sand/casitas/Cocoloba_Classic-2.jpg);
+    background-image: url(../img/blue-sand/casitas/Cocoloba_Classic-2-compressed.jpg);
     z-index: 1;
 }
 
 .img-cocoloba-del::before {
-    background-image: url(../img/blue-sand/casitas/Casitas_CR-COVER.jpg);
+    background-image: url(../img/blue-sand/casitas/Casitas_CR-COVER-compressed.jpg);
     z-index: 1;
 }
 
