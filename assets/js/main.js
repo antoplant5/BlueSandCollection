@@ -1,13 +1,13 @@
 (function ($) {
     "use strict"
 
-    /* 1. Proloder */
-    $(window).on('load', function () {
-        $('#preloader-active').delay(450).fadeOut('slow');
-        $('body').delay(450).css({
-            'overflow': 'visible'
-        });
-    });
+    // /* 1. Proloder */
+    // $(window).on('load', function () {
+    //     $('#preloader-active').delay(450).fadeOut('slow');
+    //     $('body').delay(450).css({
+    //         'overflow': 'visible'
+    //     });
+    // });
 
 
     /* 2. slick Nav */
@@ -20,7 +20,6 @@
             openedSymbol: '-'
         });
     }
-    ;
 
 
     /* 3. MainSlider-1 */
@@ -237,7 +236,7 @@
     }
 
     var dataPopUp = $('.popup-with-zoom-anim');
-    if(dataPopUp.length) {
+    if (dataPopUp.length) {
         dataPopUp.magnificPopup({
             type: 'inline',
             fixedContentPos: false,
