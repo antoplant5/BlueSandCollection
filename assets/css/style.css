@@ -6,8 +6,8 @@
 	  Support:
 	  Description:
 	  Version:
-	  
-------------------------------------------------- 
+
+-------------------------------------------------
 */
 /* CSS Index
 -------------------------------------------------
@@ -22,14 +22,14 @@
 	8. video-area
 	9. counter
 	10. footer
-	
+
 -------------------------------------------------
 */
 /*
- 
+
 	@include transition(.4s);
 	color:$theme-color;
-	
+
 */
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Noto+Serif:400,400i,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
@@ -3556,6 +3556,16 @@ label {
 
 .img-cocoloba1::before {
     background-image: url(../img/blue-sand/casitas/Cocoloba_Classic-1-compressed.jpg);
+    z-index: 1;
+}
+
+.img-cocoloba-deluxe1::before {
+    background-image: url(../img/blue-sand/casitas/modulo1-crop.jpg);
+    z-index: 1;
+}
+
+.img-cocoloba-deluxe2::before {
+    background-image: url(../img/blue-sand/casitas/modulo2-crop.jpg);
     z-index: 1;
 }
 
